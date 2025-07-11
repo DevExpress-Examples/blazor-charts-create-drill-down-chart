@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36127.28 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillDownChart", "DrillDownChart.csproj", "{90A2E944-AF46-4E01-92DB-4C7EA6FED822}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrillDownChart", "DrillDownChart\DrillDownChart.csproj", "{8FA8FBCB-1986-FC7B-C89A-19D2C83E70B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
