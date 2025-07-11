@@ -4,7 +4,7 @@
         static Dictionary<string, List<string>> categorizedProducts;
         internal static Dictionary<string, List<string>> CategorizedProducts {
             get {
-                if (categorizedProducts == null) {
+                if(categorizedProducts == null) {
                     categorizedProducts = new Dictionary<string, List<string>>();
                     categorizedProducts["Cameras"] = new List<string>()
                     {"Camera", "Camcorder", "Binoculars", "Flash", "Tripod"};
@@ -29,14 +29,14 @@
             DateTime now = DateTime.Now;
             DateTime endDate = new DateTime(now.Year, now.Month, 1);
             List<SaleItem> items = new List<SaleItem>();
-            foreach (string company in companies) {
+            foreach(string company in companies) {
                 double companyFactor = rnd.NextDouble() * 0.6 + 1;
-                foreach (string category in CategorizedProducts.Keys) {
+                foreach(string category in CategorizedProducts.Keys) {
                     double categoryFactor = rnd.NextDouble() * 0.6 + 1;
-                    foreach (string product in CategorizedProducts[category]) {
+                    foreach(string product in CategorizedProducts[category]) {
                         int maxIncome = rnd.Next(60, 140);
-                        for (int i = 0; i < 300; i++) {
-                            if (i % 100 == 0)
+                        for(int i = 0; i < 300; i++) {
+                            if(i % 100 == 0)
                                 maxIncome = Math.Max(40, rnd.Next(maxIncome - 20, maxIncome + 20));
                             DateTime date = endDate.AddDays(-i - 1);
                             double income = rnd.Next(20, maxIncome) * companyFactor * categoryFactor;
