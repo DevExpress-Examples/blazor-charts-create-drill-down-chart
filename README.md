@@ -16,7 +16,7 @@ The example handles the [SeriesClick](https://docs.devexpress.com/Blazor/DevExpr
 
 ## Files to Review
 
-- [Index.razor](CS/DrillDownChart/Pages/Index.razor)
+- [Index.razor](CS/DrillDownChart/Components/Pages/Index.razor)
 
 ## Documentation
 
