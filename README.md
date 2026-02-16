@@ -22,7 +22,7 @@ The example handles the [SeriesClick](https://docs.devexpress.com/Blazor/DevExpr
 
 - [DxChart](https://docs.devexpress.com/Blazor/DevExpress.Blazor.DxChart-1)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-charts-create-drill-down-chart&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=blazor-charts-create-drill-down-chart&~~~was_helpful=no)
 
